@@ -92,3 +92,95 @@ body {
     max-width: 1440px;
     font-family: 'Spartan', sans-serif;
 }
+
+#container {
+    margin: 100px 50px;
+    //top part
+    #top-part {
+        display: flex;
+        justify-content: space-between;
+        //main title
+        #main-title {
+            width: 40%;
+            h1 {
+                font-size: 2.5rem;
+                color: $primaryDark;
+                font-weight: 700;
+                line-height: 2.5rem;
+            }
+            h2 {
+                margin-top: 15px;
+                font-size: 0.8rem;
+                color: $secondaryDark;
+                font-weight: 500;
+                line-height: 1.3rem;
+            }
+        }
+        //stars
+        #star {
+            width: 50%;
+            .five-star {
+                &:first-child {
+                    margin-right: 60px;
+                }
+                &:nth-child(2) {
+                    margin-right: 30px;
+                    margin-left: 30px;
+                }
+                &:nth-child(3) {
+                    margin-left: 60px;
+                }
+                background-color: $secondaryLight;
+                border-radius: 0.8rem;
+                color: $primaryDark;
+                font-weight: 700;
+                font-size: 0.7rem;
+                padding: 18px;
+                margin-top: 15px;
+            }
+        }
+    }
+    #comment {
+        margin-top: 65px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .comment-box {
+            &:nth-child(1) {
+                margin: 0 0 40px;
+            }
+            &:nth-child(2) {
+                margin: 20px 0;
+            }
+            &:nth-child(3) {
+                margin: 40px 0 0;
+            }
+            width: 31%;
+            background-color: $primaryDark;
+            padding: 40px 30px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            h3 {
+                color: $white;
+                font-weight: 500;
+                font-size: 0.7rem;
+            }
+            h4 {
+                color: $primarySoft;
+                font-weight: 400;
+                font-size: 0.7rem;
+            }
+            p {
+                margin: 15px 0 20px;
+                color: $secondaryLight;
+                font-weight: 400;
+                font-size: 0.7rem;
+                line-height: 1.2rem;
+            }
+        }
+    }
+}
+
+//bottom part
