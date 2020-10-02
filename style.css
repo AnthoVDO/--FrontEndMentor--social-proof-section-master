@@ -83,37 +83,45 @@ th:not([align]) {
 }
 
 body {
-  max-width: 1440px;
   font-family: "Spartan", sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
-#container {
-  margin: 100px 50px;
+#support {
+  max-width: 1440px;
+  background-image: url("../images/bg-pattern-top-desktop.svg"), url("../images/bg-pattern-bottom-desktop.svg");
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
 }
-#container #top-part {
+#support #container {
+  padding: 100px 150px 0px;
+}
+#support #container #top-part {
   display: flex;
   justify-content: space-between;
 }
-#container #top-part #main-title {
+#support #container #top-part #main-title {
   width: 40%;
 }
-#container #top-part #main-title h1 {
+#support #container #top-part #main-title h1 {
   font-size: 2.5rem;
   color: #502050;
   font-weight: 700;
   line-height: 2.5rem;
 }
-#container #top-part #main-title h2 {
+#support #container #top-part #main-title h2 {
   margin-top: 15px;
   font-size: 0.8rem;
   color: #937b92;
   font-weight: 500;
   line-height: 1.3rem;
 }
-#container #top-part #star {
+#support #container #top-part #star {
   width: 50%;
 }
-#container #top-part #star .five-star {
+#support #container #top-part #star .five-star {
+  display: flex;
   background-color: #f7f2f7;
   border-radius: 0.8rem;
   color: #502050;
@@ -122,23 +130,34 @@ body {
   padding: 18px;
   margin-top: 15px;
 }
-#container #top-part #star .five-star:first-child {
+#support #container #top-part #star .five-star img:first-child {
+  margin-left: 20px;
+}
+#support #container #top-part #star .five-star img {
+  margin: 0 3px;
+}
+#support #container #top-part #star .five-star p {
+  margin-left: 30px;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+#support #container #top-part #star .five-star:first-child {
   margin-right: 60px;
 }
-#container #top-part #star .five-star:nth-child(2) {
+#support #container #top-part #star .five-star:nth-child(2) {
   margin-right: 30px;
   margin-left: 30px;
 }
-#container #top-part #star .five-star:nth-child(3) {
+#support #container #top-part #star .five-star:nth-child(3) {
   margin-left: 60px;
 }
-#container #comment {
+#support #container #comment {
   margin-top: 65px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-#container #comment .comment-box {
+#support #container #comment .comment-box {
   width: 31%;
   background-color: #502050;
   padding: 40px 30px;
@@ -147,31 +166,53 @@ body {
   justify-content: space-between;
   flex-direction: column;
 }
-#container #comment .comment-box:nth-child(1) {
+#support #container #comment .comment-box:nth-child(1) {
   margin: 0 0 40px;
 }
-#container #comment .comment-box:nth-child(2) {
+#support #container #comment .comment-box:nth-child(2) {
   margin: 20px 0;
 }
-#container #comment .comment-box:nth-child(3) {
+#support #container #comment .comment-box:nth-child(3) {
   margin: 40px 0 0;
 }
-#container #comment .comment-box h3 {
+#support #container #comment .comment-box .profile {
+  display: flex;
+}
+#support #container #comment .comment-box .profile img {
+  border-radius: 40px;
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+}
+#support #container #comment .comment-box .profile div {
+  margin: 10px 30px;
+  height: 40px;
+  margin-top: 15px;
+}
+#support #container #comment .comment-box .profile div h3 {
   color: white;
   font-weight: 500;
   font-size: 0.7rem;
+  margin-bottom: 5px;
 }
-#container #comment .comment-box h4 {
+#support #container #comment .comment-box .profile div h4 {
   color: #ee68a4;
   font-weight: 400;
   font-size: 0.7rem;
 }
-#container #comment .comment-box p {
-  margin: 15px 0 20px;
+#support #container #comment .comment-box p {
+  margin: 15px 0 0px;
   color: #f7f2f7;
   font-weight: 400;
   font-size: 0.7rem;
   line-height: 1.2rem;
+}
+#support .attribution {
+  width: 100%;
+  text-align: center;
+  background-color: #f7f2f7;
+  line-height: 3rem;
+  margin-top: 70px;
 }
 
 /*# sourceMappingURL=style.css.map */
