@@ -1,4 +1,4 @@
-# ![Link to the view](https://front-end-mentor-social-proof-section-master.vercel.app/)
+# [Link to the view](https://front-end-mentor-social-proof-section-master.vercel.app/)
 
 
 ## Frontend Mentor - Social proof section
