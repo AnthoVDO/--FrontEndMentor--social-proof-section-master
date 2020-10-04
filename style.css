@@ -354,6 +354,32 @@ body {
   #support #container {
     padding: 100px 10px 0px;
   }
+  #support #container #top-part #star .five-star {
+    margin: 15px !important;
+  }
+
+  .attribution {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 400px) {
+  #support #container #top-part #main-title h1 {
+    font-size: 2rem;
+  }
+  #support #container #top-part #main-title h2 {
+    font-size: 0.7rem;
+  }
+  #support #container #top-part #star .five-star {
+    padding: 10px 0;
+    margin: 10px 0;
+  }
+  #support #container #comment .comment-box {
+    width: 90% !important;
+  }
+
+  .attribution {
+    font-size: 0.7rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
