@@ -1,4 +1,7 @@
-# Frontend Mentor - Social proof section
+# ![Link to the view](https://front-end-mentor-social-proof-section-master.vercel.app/)
+
+
+## Frontend Mentor - Social proof section
 
 ![Design preview for the Social proof section coding challenge](./design/desktop-preview.jpg)
 
