@@ -215,4 +215,33 @@ body {
   margin-top: 70px;
 }
 
+@media (max-width: 1250px) {
+  #container {
+    padding: 100px 100px 0px;
+  }
+
+  #main-title {
+    width: 30%;
+  }
+
+  #star {
+    flex: none;
+    width: 70%;
+  }
+  #star .five-star {
+    width: 410px;
+    height: 52px;
+  }
+}
+@media (max-width: 1200px) {
+  #container {
+    padding: 100px 50px 0px;
+  }
+}
+@media (max-width: 1150px) {
+  #container {
+    padding: 100px 0px 0px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
